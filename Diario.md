@@ -7,9 +7,9 @@ El objetivo de esta nota es llevar notas de las preguntas, respuestas y estrateg
 Fase 1: Planificación (Día 1)
 
 Diseñar wireframe básico en papel o herramienta digital  
-Definir paleta de colores y Seleccionar tipografías
+Definir paleta de colores y seleccionar tipografías
 
-*   No quiero definir todo esto de la nada, tomare una referencia  
+*   No quiero definir todo esto de la nada, tomaré una referencia  
     [Referencia](https://teenage.engineering/products/tp-7)
 
 Recopilar contenido (textos, imágenes)
@@ -70,4 +70,9 @@ Hacer ajustes finales
 
 ---
 
-## 19 agu
+## 19 ago
+se inició el proyecto y los archivos 
+
+## 22 agosto
+
+se definió el tema y estructura, lo voy a hacer de mis opiniones y reflexiones de los libros que he leído este año
