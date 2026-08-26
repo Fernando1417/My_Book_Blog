@@ -1,3 +1,8 @@
+GitHub page:
+
+https://fernando1417.github.io/My_Book_Blog/
+
+
 ### 1. Project overview
 
 Briefly introduce **My Book Blog** and explain what visitors can find on the website.
@@ -28,8 +33,4 @@ Briefly introduce **My Book Blog** and explain what visitors can find on the web
 - Add filtering or categories for books and articles.
 - Deploy and maintain the website as a personal knowledge archive.
 
-### 6. GitHub repository
 
-Add the repository link here once confirmed:
-
-https://fernando1417.github.io/My_Book_Blog/
