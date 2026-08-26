@@ -16,3 +16,9 @@ section[id] {
   scroll-margin-top: 120px;
 }
 ```
+
+
+
+## Colores
+ahora quiero pensar un poco en el diseño de colores.
+
