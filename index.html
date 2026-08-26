@@ -64,7 +64,6 @@
 
               <p><strong>Categories:</strong> Management, Strategy</p>
 
-              <p><strong>Categories:</strong> Management, Strategy</p>
               <p>
                 <strong>Summary:</strong> My main takeaway is that good
                 management depends on questioning familiar assumptions. Instead
@@ -250,7 +249,10 @@
               <li>
                 Privacy is more than controlling personal information; it is the
                 ability to temporarily withdraw from the attention and
-                expectations of others. - A good life requires moments of
+                expectations of others.
+              </li>
+              <li>
+                A good life requires moments of
                 <strong>oblivion</strong>—spaces where we are not constantly
                 observed, evaluated, or asked to explain ourselves.
               </li>
@@ -312,9 +314,14 @@
         </p>
 
         <form class="form-contact">
-          <label>Your name: <input type="text" /></label>
-          <label>Your email: <input type="email" /></label>
-          <label>What’s on your mind? <input type="text" /></label>
+          <label for="name">Your name: </label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Your email:</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">What’s on your mind?</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
           <button type="submit">Send message</button>
         </form>
 

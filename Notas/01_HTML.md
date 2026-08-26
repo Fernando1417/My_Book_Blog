@@ -56,6 +56,8 @@ Define el **favicon**, es decir, el pequeño ícono que aparece en la pestaña d
 
 ##  Form
 
+este es un from basico
+
 ```
         <form class="form-contact">
           <label>Your name: <input type="text" /></label>
@@ -64,6 +66,32 @@ Define el **favicon**, es decir, el pequeño ícono que aparece en la pestaña d
           <button type="submit">Send message</button>
         </form>
 ```
+
+actalice para que sea mas sematico y para mas adelante que teng un diseño mas felixible 
+
+```
+       <form class="form-contact">
+          <label for="name">Your name: </label>
+          <input id="name" name="name" type="text" required />
+
+          <label for="email">Your email:</label>
+          <input id="email" name="email" type="email" required />
+
+          <label for="message">What’s on your mind?</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+          <button type="submit">Send message</button>
+        </form>
+```
+
+for="name" - indica qué campo describe el label.
+
+id="name" - identifica ese campo.
+
+permite hacer clic en el texto del label para enfocar el campo
+
+se pide que los campos sean `required` no se puede mandar sin esos campos 
+
+de input a textarea, ya que la idea sea un msenaje no un texto corto
 
 ## Navegador
 
