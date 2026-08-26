@@ -12,13 +12,48 @@ p {
   font-weight: 400;
 }
 
+
+
+.book-image {
+  width: 100%;
+  max-width: 200px;
+  margin-bottom: 10px;
+}
+
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.form-contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 /* Mobile: 320px - 767px (estilos por defecto) */
 
 /* Tablet */
 
 @media (min-width: 768px) {
 
-  /* Estilos para tablet */
+.book-reviews{
+  display: grid;
+  grid-template-columns: 1fr 1fr; 
+  gap: 20px;
+}
+
+.book-card{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+
 
 }
 
