@@ -10,11 +10,9 @@ Efecto sticky o fixed para que permanezca visible
 
 2. Sección Hero/Presentación
 
-Título con tu nombre
+Luis Fernando Chavarría Rodriguez
 
-Subtítulo con tu profesión/ocupación
-
-Breve frase descriptiva
+I am a data 
 
 Botón CTA (Call to Action) que lleve a la sección de contacto
 

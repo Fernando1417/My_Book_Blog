@@ -64,29 +64,67 @@ Pixabay: https://pixabay.com/
 
 ---
 
-## ✅ Requisitos Obligatorios
+# Diario
 
-### 1\. Estructura HTML (html-structure.html)
+El objetivo de esta nota es llevar notas de las preguntas, respuestas y estrategias que tome de este proyecto.
 
-#### DOCTYPE y Estructura Base
+🚀 Pasos Recomendados para Desarrollar el Proyecto
 
- Declaración `<!DOCTYPE html>` correcta
+Fase 1: Planificación (Día 1)
 
- Etiqueta `<html>` con atributo `lang="es"`
+Diseñar wireframe básico en papel o herramienta digital  
+Definir paleta de colores y seleccionar tipografías
 
- Sección `<head>` completa con:
+*   No quiero definir todo esto de la nada, tomaré una referencia  
+    [Referencia](https://teenage.engineering/products/tp-7)
 
-Meta charset UTF-8
+Fase 3: Estilos Base (Día 3)
 
-Meta viewport para diseño responsivo
+Crear CSS reset/normalize
 
-Título descriptivo de la página
+Definir variables CSS (colores, fuentes)
 
-Enlace a hoja de estilos CSS externa
+Estilos de tipografía base
 
-(Opcional) Favicon
+Estilos mobile-first
 
- Estructura de `<body>` bien organizada
+Fase 4: Layouts con Flexbox (Día 4)
+
+Implementar navegación
+
+Crear sección hero
+
+Diseñar galería de proyectos
+
+Construir footer
+
+Fase 5: Responsividad (Día 5)
+
+Agregar media queries para tablet
+
+Agregar media queries para desktop
+
+Probar en diferentes dispositivos
+
+Ajustar breakpoints según necesidad
+
+Fase 6: Detalles Finales (Día 6)
+
+Agregar efectos hover y transiciones
+
+Implementar z-index en navegación
+
+Refinar espaciado y alineación
+
+Optimizar imágenes
+
+Fase 7: Pruebas y Ajustes (Día 7)  
+Validar HTML y CSS  
+Probar en diferentes navegadores  
+Verificar accesibilidad básica  
+Hacer ajustes finales
+
+---
 
 ### 2\. HTML Semántico (semantic-html.html)
 
