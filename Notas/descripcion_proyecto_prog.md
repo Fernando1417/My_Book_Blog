@@ -101,6 +101,8 @@ El sitio debe utilizar las siguientes etiquetas semánticas:
 
   - Contenido principal del sitio
 
+\<footer> \<p>© 2026 Fernando Chavarria\</p> \<a href="https://www.linkedin.com/">LinkedIn\</a> \</footer>
+
  `<aside>` - Información complementaria (opcional)
 
  `<figure>` y `<figcaption>` - Para imágenes con descripciones
