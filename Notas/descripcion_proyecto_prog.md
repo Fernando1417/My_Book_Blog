@@ -1,20 +1,7 @@
-# Proyecto web 1
+# \# notas
 
-Crear un sitio web de portafolio personal completamente funcional y responsivo que demuestre el dominio de todos los conceptos de HTML y CSS aprendidos en el curso (excepto CSS Grid).
-
-## 📋 Descripción del Proyecto
-
-Desarrollarás un portafolio personal de una página (single-page) con múltiples secciones que incluya información sobre ti, tus habilidades, proyectos y formas de contacto. El sitio debe ser completamente responsivo y utilizar las mejores prácticas de HTML semántico y CSS moderno.
-
-## 📅 Fecha de Entrega
-
-**26 Agosto 2026**
-
-### SÍ Permitido:
-
-✅ Consultar documentación (MDN, W3Schools)
-
-✅ Usar referencias visuales para inspiración
+No quiero definir todo esto de la nada, tomaré una referencia  
+[Referencia](https://teenage.engineering/products/tp-7)
 
 ✅ Iconos de bibliotecas externas (Font Awesome, opcional)
 
@@ -54,29 +41,7 @@ Coolors (paletas): https://coolors.co/
 
 Adobe Color: https://color.adobe.com/
 
-### Imágenes Gratuitas
-
-Unsplash: https://unsplash.com/
-
-Pexels: https://www.pexels.com/
-
-Pixabay: https://pixabay.com/
-
 ---
-
-# Diario
-
-El objetivo de esta nota es llevar notas de las preguntas, respuestas y estrategias que tome de este proyecto.
-
-🚀 Pasos Recomendados para Desarrollar el Proyecto
-
-Fase 1: Planificación (Día 1)
-
-Diseñar wireframe básico en papel o herramienta digital  
-Definir paleta de colores y seleccionar tipografías
-
-*   No quiero definir todo esto de la nada, tomaré una referencia  
-    [Referencia](https://teenage.engineering/products/tp-7)
 
 Fase 3: Estilos Base (Día 3)
 
