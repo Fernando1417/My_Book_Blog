@@ -18,7 +18,7 @@ html {
 
 /* sin esto no puedo ir a la sección about  */
 section[id] {
-  scroll-margin-top: 100px;
+  scroll-margin-top: 120px;
 }
 
 
@@ -61,13 +61,15 @@ article {
   border-radius: 15px;
 }
 
+
+
+
+
+/* contacto  */
 form.form-contact{
   padding:20px;
   background-color: #f5f5f5;
 }
-
-/* contacto  */
-
 .form-contact{
   display: flex;
   flex-direction: column;
@@ -104,6 +106,14 @@ form.form-contact{
     justify-content: center;
     gap: 1.5rem;
   }
+
+
+article:hover {
+  z-index: 2;
+  transform: translateY(-8px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+}
+
 
 .book-reviews{
   display: grid;
