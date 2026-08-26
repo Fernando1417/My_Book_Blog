@@ -1,3 +1,39 @@
-.test-class {
-  color: blue;
+body {
+  font-family: "Newsreader", serif;
+}
+
+h1 {
+  font-family: "Newsreader", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Newsreader", serif;
+  font-weight: 400;
+}
+
+/* Mobile: 320px - 767px (estilos por defecto) */
+
+/* Tablet */
+
+@media (min-width: 768px) {
+
+  /* Estilos para tablet */
+
+}
+
+/* Desktop */
+
+@media (min-width: 1024px) {
+
+  /* Estilos para desktop */
+
+}
+
+/* Desktop Grande */
+
+@media (min-width: 1440px) {
+
+  /* Estilos para pantallas grandes */
+
 }
