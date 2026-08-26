@@ -99,25 +99,9 @@ El sitio debe utilizar las siguientes etiquetas semánticas:
 
  `<nav>` - Menú de navegación con enlaces a secciones
 
- `<main>` - Contenido principal del sitio
-
- `<section>` - Mínimo 4 secciones diferentes:
-
-Sección "Hero" o presentación
-
-Sección "Sobre mí"
-
-Sección "Habilidades"
-
-Sección "Proyectos"
-
-Sección "Contacto"
-
- `<article>` - Para cada proyecto individual
+  - Contenido principal del sitio
 
  `<aside>` - Información complementaria (opcional)
-
- `<footer>` - Pie de página con información de copyright y redes sociales
 
  `<figure>` y `<figcaption>` - Para imágenes con descripciones
 
