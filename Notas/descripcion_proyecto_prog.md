@@ -95,17 +95,9 @@ Hacer ajustes finales
 
 El sitio debe utilizar las siguientes etiquetas semánticas:
 
- `<header>` - Cabecera principal con navegación
-
  `<nav>` - Menú de navegación con enlaces a secciones
 
-  - Contenido principal del sitio
-
-\<footer> \<p>© 2026 Fernando Chavarria\</p> \<a href="https://www.linkedin.com/">LinkedIn\</a> \</footer>
-
  `<aside>` - Información complementaria (opcional)
-
- `<figure>` y `<figcaption>` - Para imágenes con descripciones
 
 ### 3\. Selectores CSS (css-selectors.html)
 
