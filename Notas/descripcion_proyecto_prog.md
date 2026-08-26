@@ -1,103 +1,66 @@
-# \# notas
+# Proyecto web 1
 
-No quiero definir todo esto de la nada, tomaré una referencia  
-[Referencia](https://teenage.engineering/products/tp-7)
+Crear un sitio web de portafolio personal completamente funcional y responsivo que demuestre el dominio de todos los conceptos de HTML y CSS aprendidos en el curso
 
-✅ Iconos de bibliotecas externas (Font Awesome, opcional)
+## 📋 Descripción del Proyecto
 
-✅ Google Fonts para tipografía
-
-✅ Creatividad y diseño personalizado
-
-## 🔍 Recursos Adicionales
-
-### Validadores
-
-HTML: https://validator.w3.org/
-
-CSS: https://jigsaw.w3.org/css-validator/
-
-### Herramientas de Prueba Responsiva
-
-Chrome DevTools (F12 > Toggle Device Toolbar)
-
-Firefox Responsive Design Mode
-
-https://responsivedesignchecker.com/
-
-### Inspiración de Diseño
-
-https://dribbble.com/tags/portfolio
-
-https://www.awwwards.com/websites/portfolio/
-
-https://codepen.io/search/pens?q=portfolio
-
-### Colores y Tipografía
-
-Google Fonts: https://fonts.google.com/
-
-Coolors (paletas): https://coolors.co/
-
-Adobe Color: https://color.adobe.com/
+Desarrollarás un portafolio personal de una página (single-page) con múltiples secciones que incluya información sobre ti, tus habilidades, proyectos y formas de contacto. El sitio debe ser completamente responsivo y utilizar las mejores prácticas de HTML semántico y CSS moderno.
 
 ---
 
-Fase 3: Estilos Base (Día 3)
+## ✅ Requisitos Obligatorios
 
-Crear CSS reset/normalize
+### 1\. Estructura HTML (html-structure.html)
 
-Definir variables CSS (colores, fuentes)
+#### DOCTYPE y Estructura Base
 
-Estilos de tipografía base
+ Declaración `<!DOCTYPE html>` correcta
 
-Estilos mobile-first
+ Etiqueta `<html>` con atributo `lang="en"`
 
-Fase 4: Layouts con Flexbox (Día 4)
+ Sección `<head>` completa con:
 
-Implementar navegación
+Meta charset UTF-8
 
-Crear sección hero
+Meta viewport para diseño responsivo
 
-Diseñar galería de proyectos
+Título descriptivo de la página
 
-Construir footer
+Enlace a hoja de estilos CSS externa
 
-Fase 5: Responsividad (Día 5)
+(Opcional) Favicon
 
-Agregar media queries para tablet
-
-Agregar media queries para desktop
-
-Probar en diferentes dispositivos
-
-Ajustar breakpoints según necesidad
-
-Fase 6: Detalles Finales (Día 6)
-
-Agregar efectos hover y transiciones
-
-Implementar z-index en navegación
-
-Refinar espaciado y alineación
-
-Optimizar imágenes
-
-Fase 7: Pruebas y Ajustes (Día 7)  
-Validar HTML y CSS  
-Probar en diferentes navegadores  
-Verificar accesibilidad básica  
-Hacer ajustes finales
-
----
+ Estructura de `<body>` bien organizada
 
 ### 2\. HTML Semántico (semantic-html.html)
 
 El sitio debe utilizar las siguientes etiquetas semánticas:
 
+ `<header>` - Cabecera principal con navegación
+
  `<nav>` - Menú de navegación con enlaces a secciones
 
+ `<main>` - Contenido principal del sitio
+
+ `<section>` - Mínimo 4 secciones diferentes:
+
+Sección "Hero" o presentación
+
+Sección "Sobre mí"
+
+Sección "Habilidades"
+
+Sección "Proyectos"
+
+Sección "Contacto"
+
+ `<article>` - Para cada proyecto individual
+
  `<aside>` - Información complementaria (opcional)
+
+ `<footer>` - Pie de página con información de copyright y redes sociales
+
+ `<figure>` y `<figcaption>` - Para imágenes con descripciones
 
 ### 3\. Selectores CSS (css-selectors.html)
 
@@ -309,25 +272,10 @@ Ajustes de tipografía
 
 @media (min-width: 768px) {
 
-  /* Estilos para tablet */
+  /* Estilos para tablet y desktop  */
 
 }
 
-/* Desktop */
-
-@media (min-width: 1024px) {
-
-  /* Estilos para desktop */
-
-}
-
-/* Desktop Grande */
-
-@media (min-width: 1440px) {
-
-  /* Estilos para pantallas grandes */
-
-}
 ```
 
 ---
@@ -388,6 +336,121 @@ Comentarios donde sea necesario (2 pts)
 
 ---
 
+## 📦 Entregables
+
+### Estructura de Archivos Requerida
+
+```
+
+portafolio/
+
+├── index.html
+
+├── styles.css
+
+├── images/
+
+│   ├── profile.jpg
+
+│   ├── project1.jpg
+
+│   ├── project2.jpg
+
+│   └── project3.jpg
+
+└── README.md (opcional)
+```
+
+### Documentos a Entregar:
+
+**Código fuente completo** (HTML + CSS)
+
+**Imágenes utilizadas** en carpeta organizada
+
+**Archivo README.md** (opcional) explicando:
+
+Descripción del proyecto
+
+Tecnologías utilizadas
+
+Conceptos aplicados
+
+Instrucciones para visualizar
+
+---
+
+## 🚀 Pasos Recomendados para Desarrollar el Proyecto
+
+### Fase 1: Planificación (Día 1)
+
+Diseñar wireframe básico en papel o herramienta digital
+
+Definir paleta de colores
+
+Seleccionar tipografías
+
+Recopilar contenido (textos, imágenes)
+
+### Fase 2: Estructura HTML (Día 2)
+
+Crear estructura HTML completa
+
+Agregar contenido semántico
+
+Validar HTML
+
+### Fase 3: Estilos Base (Día 3)
+
+Crear CSS reset/normalize
+
+Definir variables CSS (colores, fuentes)
+
+Estilos de tipografía base
+
+Estilos mobile-first
+
+### Fase 4: Layouts con Flexbox (Día 4)
+
+Implementar navegación
+
+Crear sección hero
+
+Diseñar galería de proyectos
+
+Construir footer
+
+### Fase 5: Responsividad (Día 5)
+
+Agregar media queries para tablet
+
+Agregar media queries para desktop
+
+Probar en diferentes dispositivos
+
+Ajustar breakpoints según necesidad
+
+### Fase 6: Detalles Finales (Día 6)
+
+Agregar efectos hover y transiciones
+
+Implementar z-index en navegación
+
+Refinar espaciado y alineación
+
+Optimizar imágenes
+
+### Fase 7: Pruebas y Ajustes (Día 7)
+
+Validar HTML y CSS
+
+Probar en diferentes navegadores
+
+Verificar accesibilidad básica
+
+Hacer ajustes finales
+
+---
+
 ## 💡 Consejos y Mejores Prácticas
 
 ### HTML
@@ -441,3 +504,197 @@ Minimiza el uso de efectos costosos
 Usa transiciones en propiedades específicas, no `all`
 
 ---
+
+## 🔍 Recursos Adicionales
+
+### Validadores
+
+HTML: https://validator.w3.org/
+
+CSS: https://jigsaw.w3.org/css-validator/
+
+### Herramientas de Prueba Responsiva
+
+Chrome DevTools (F12 > Toggle Device Toolbar)
+
+Firefox Responsive Design Mode
+
+https://responsivedesignchecker.com/
+
+### Inspiración de Diseño
+
+https://dribbble.com/tags/portfolio
+
+https://www.awwwards.com/websites/portfolio/
+
+https://codepen.io/search/pens?q=portfolio
+
+### Colores y Tipografía
+
+Google Fonts: https://fonts.google.com/
+
+Coolors (paletas): https://coolors.co/
+
+Adobe Color: https://color.adobe.com/
+
+### Imágenes Gratuitas
+
+Unsplash: https://unsplash.com/
+
+Pexels: https://www.pexels.com/
+
+Pixabay: https://pixabay.com/
+
+---
+
+### SÍ Permitido:
+
+✅ Consultar documentación (MDN, W3Schools)
+
+✅ Usar referencias visuales para inspiración
+
+✅ Iconos de bibliotecas externas (Font Awesome, opcional)
+
+✅ Google Fonts para tipografía
+
+✅ Creatividad y diseño personalizado
+
+---
+
+## 📅 Fecha de Entrega
+
+**26 Agosto 2026**
+
+---
+
+## ❓ Preguntas Frecuentes
+
+**P: ¿Puedo usar más de una página HTML?**
+
+R: El proyecto debe ser de una sola página (single-page), pero puedes tener páginas adicionales para proyectos individuales si lo deseas (opcional).
+
+**P: ¿Cuánto código CSS es suficiente?**
+
+R: No hay un mínimo, pero debes demostrar dominio de todos los conceptos listados. Un portafolio bien diseñado típicamente requiere 300-600 líneas de CSS.
+
+**P: ¿Puedo usar preprocesadores como SASS?**
+
+R: Se recomienda usar CSS puro para demostrar conocimientos fundamentales, pero si conoces SASS puedes usarlo.
+
+**P: ¿Qué hago si no tengo proyectos reales para mostrar?**
+
+R: Puedes crear proyectos ficticios o mostrar ejercicios del curso como proyectos de práctica.
+
+**P: ¿Es obligatorio hacer un menú hamburguesa para móvil?**
+
+R: Se recomienda encarecidamente para una buena experiencia móvil, pero puedes usar navegación colapsada o simplificada.
+
+**P: ¿Puedo usar JavaScript para el menú hamburguesa?**
+
+R: Sí, es aceptable usar JavaScript básico para funcionalidad interactiva como un menú hamburguesa o modal.
+
+---
+
+## 🎓 Criterios de Excelencia
+
+Para obtener la máxima calificación, tu proyecto debe:
+
+✨ **Código impecable**: HTML válido, CSS organizado y comentado
+
+🎨 **Diseño profesional**: Visualmente atractivo y coherente
+
+📱 **Perfectamente responsivo**: Funciona perfectamente en todos los dispositivos
+
+♿ **Accesible**: Considera usuarios con diferentes capacidades
+
+⚡ **Optimizado**: Imágenes optimizadas, código eficiente
+
+🚀 **Creativo**: Muestra personalidad y originalidad
+
+📚 **Completo**: Incluye todas las secciones y requisitos
+
+🎯 **Funcional**: Todos los enlaces y formularios funcionan
+
+---
+
+## 🏆 Bonus
+
+Características opcionales:
+
+ **Modo oscuro/claro** con botón toggle (requiere JavaScript)
+
+ **Animaciones avanzadas** con @keyframes
+
+ **Sección de testimonios** con diseño creativo
+
+ **Parallax scrolling** sutil
+
+ **Iconos personalizados** SVG en línea
+
+ **Carga progresiva** de contenido con efectos
+
+ **Formulario de contacto funcional** (requiere backend o servicio)
+
+ **Optimización SEO** (meta tags, estructura semántica avanzada)
+
+ **Rendimiento optimizado** (imágenes WebP, lazy loading)
+
+ **Variables CSS (Custom Properties)** para temas
+
+---
+
+## 📞 Soporte
+
+Si tienes dudas durante el desarrollo:
+
+Revisa las lecciones correspondientes del curso
+
+Consulta la documentación de MDN
+
+Participa en foros de discusión del curso
+
+Contacta al instructor durante horario de oficina
+
+---
+
+## ✅ Checklist Final Antes de Entregar
+
+ HTML validado sin errores
+
+ CSS validado sin errores
+
+ Probado en Chrome, Firefox, y Safari
+
+ Responsivo en móvil, tablet y desktop
+
+ Todas las imágenes tienen atributo alt
+
+ Navegación funciona correctamente
+
+ Enlaces se abren apropiadamente (externos en nueva pestaña)
+
+ Formulario tiene validación básica
+
+ Código comentado donde es necesario
+
+ Sin errores en la consola del navegador
+
+ Archivos organizados correctamente
+
+ README incluido (si aplica)
+
+---
+
+## 🎉 ¡Mucho Éxito!
+
+Este proyecto es tu oportunidad para demostrar todo lo que has aprendido y crear algo de lo que puedas estar orgulloso. Tómate el tiempo necesario, presta atención a los detalles, y no tengas miedo de ser creativo.
+
+**Recuerda**: Este portafolio puede ser la base de tu presencia profesional en línea. ¡Hazlo brillar! ✨
+
+Mecanismo de entrega:
+
+Link al repositorio de github
+
+Publicado también en github pages
+
+El readme del repositorio debe contener el link al github page publicado
