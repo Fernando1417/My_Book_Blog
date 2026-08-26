@@ -67,7 +67,10 @@ section[id] {
 }
 
 
-
+header h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+} 
 
 
 body {
@@ -111,10 +114,10 @@ strong {
 
 .nav-links {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   gap: 0.5rem;
-
+font-size: 12px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -177,8 +180,8 @@ strong {
 
 article .book-info ul {
   list-style: none;  
-  columns: 3;        
-  column-gap: 30px;
+  columns: 1;        
+
   margin: 0 0 1rem;
   padding-left: 0;
 }
@@ -234,15 +237,7 @@ form.form-contact{
 
 }
 
-.contact{
-     display: grid;                                                                                                         
-     grid-template-columns: 1fr 1fr; 
-  gap: 10px;
-  background-color: var(--color-surface-soft);
-  margin: 0 auto;
-  padding: 20px;
-    border-radius: var(--radius-small);
-}
+
    .contact > p { 
     margin-top: 2rem;                                                                                                         
      grid-column: 1 / -1;                                                                                                   
@@ -261,7 +256,13 @@ textarea:focus {
   outline: 3px solid rgba(63, 102, 131, 0.25);
   border-color: var(--color-accent);
 }
+.contact{
 
+  background-color: var(--color-surface-soft);
+  margin: 0 auto;
+  padding: 20px;
+    border-radius: var(--radius-small);
+}
 
 /* footer  */
 
@@ -290,7 +291,17 @@ textarea:focus {
     flex-direction: row;
     justify-content: center;
     gap: 1.5rem;
+    font-size: 16px;
   }
+
+
+
+  article .book-info ul {
+         columns: 3;   
+  column-gap: 30px;
+
+}
+
 
 .book-img:hover {
   z-index: 2;
@@ -319,7 +330,12 @@ textarea:focus {
 }
 
 
+.contact{
+     display: grid;                                                                                                         
+     grid-template-columns: 1fr 1fr; 
+  gap: 10px;
 
+}
 
 
 }
