@@ -54,6 +54,7 @@ h2, h3, h4, h5, h6 {
 p {
   font-family: "Newsreader", serif;
   font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 html {
@@ -117,6 +118,34 @@ strong {
   padding: 0;
   margin: 0;
   list-style: none;
+}
+
+.nav-links a {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  text-decoration: none; /* quitla la linea*/
+
+  color: #fff;
+  background-color: var(--color-accent);
+  border-radius: 999px;  /* que sea como boton*/
+  box-shadow: 0 1px 2px rgba(37, 42, 49, 0.15);
+
+}
+
+.nav-links a:hover {
+  background-color: var(--color-accent-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(37, 42, 49, 0.25);
+}
+
+.nav-links a:active {
+  transform: translateY(0);
+  box-shadow: 0 1px 2px rgba(37, 42, 49, 0.2);
+}
+
+.nav-links a:focus-visible {
+  outline: 3px solid rgba(63, 102, 131, 0.4);
+  outline-offset: 2px;
 }
 
 
